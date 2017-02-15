@@ -12,7 +12,10 @@ type HtmlCoronerT interface {
    GetVal(node *html.Node) string
 }
 
-var Goose struct {
+type DatacoronerG  struct {
    Get goose.Alert
 }
 
+
+
+var Goose DatacoronerG
